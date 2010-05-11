@@ -1,0 +1,9 @@
+Script started on Tue May 11 19:37:24 2010
+bash-3.2$ ls
+README		config		lib		script		tmp
+Rakefile	db		log		server		vendor
+app		doc		public		test
+bash-3.2$ exit
+exit
+
+Script done on Tue May 11 19:37:37 2010
