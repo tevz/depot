@@ -1,0 +1,13 @@
+<h1>Your pragmatic catalog</h1>
+
+<% @products.each do |product| %>
+	<div class="entry">		
+		<%= image_tag product.image_url %>
+			<h3><%=h product.title %></h3>
+			<%= product.description %>
+			<div class="price-line">
+				<span class="price"><%= display_price(product.price) %></span>
+				<%= button_to 'Add to cart', :action => "add_to_cart", :id => product %>
+			</div>
+		</div>
+<% end %>
